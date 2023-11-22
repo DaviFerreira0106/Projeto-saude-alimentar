@@ -1,4 +1,6 @@
 import 'package:applife/controller/routes/routes.dart';
+import 'package:applife/view/services/auth_or_home_page.dart';
+import 'package:applife/view/services/auth_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,9 +21,9 @@ class AppLife extends StatelessWidget {
         ),
       ),
       routes: {
-        
+        Routes.home:(context) => const AuthOrHomePage(),
       },
-      home: Scaffold(),
+      home: AuthPage(),
     );
   }
 }
