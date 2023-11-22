@@ -1,3 +1,4 @@
+import 'package:applife/controller/routes/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,10 +14,13 @@ class AppLife extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.light(
+        colorScheme: const ColorScheme.light(
           primary: Colors.blue,
         ),
       ),
+      routes: {
+        
+      },
       home: Scaffold(),
     );
   }
