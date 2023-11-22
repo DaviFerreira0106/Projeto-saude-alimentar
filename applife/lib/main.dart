@@ -20,9 +20,9 @@ class AppLife extends StatelessWidget {
           primary: Colors.blue,
         ),
       ),
-      routes: {
-        Routes.home:(context) => const AuthOrHomePage(),
-      },
+      // routes: {
+      //   Routes.home:(context) => const AuthOrHomePage(),
+      // },
       home: AuthPage(),
     );
   }
